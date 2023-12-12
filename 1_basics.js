@@ -1,7 +1,186 @@
+
+// 24 ****************************************************************************************
+// 23 ****************************************************************************************
+// 22 ****************************************************************************************
+// 21 ****************************************************************************************
+
+
+// 20 ****************************************************************************************
+// For loop - repeat a code in certain amount of time
+/*
+for(counter = 1; counter <=10; counter+=1){
+    console.log(counter);
+}
+*/
+/*
+for(i= 10 ; i >=0 ; i-=1)
+{
+    console.log(i)
+}
+*/
+// 19 ****************************************************************************************
+// Do while loop - do something then check the condition repeat if condition is true
+/*
+let username;
+do{
+    username = window.prompt("Enter your name ");
+} while(username == "" || username == null )
+
+console.log("hello", username);
+*/
+// 18 ****************************************************************************************
+// While loop
+/*
+let username = "";
+
+while( username == "" || username == null )
+{
+username = window.prompt("Enter Your name ");
+}
+console.log("Hello", username );
+*/
+
+/*
+// infinite loop
+
+while(1 == 1){
+    console.log("I am stuck in a infinite loop !! ");
+}
+*/
+
+// 17 ****************************************************************************************
+//Logical operator && for and || or ! not equal to 
+/*
+let temp = 15;
+let sunny = true;
+
+if(temp >=0 && temp <=30 && sunny){
+    console.log("Weather is GOOD !!")
+}
+else{
+    console.log("weather is BAD !!")
+}
+*/
+/*
+let temp = -15;
+
+if(temp >=0 || temp <=30 ){
+    console.log("Weather is Good !!")
+}
+else{
+    console.log("Weather is Good !!")
+}
+*/
+
+/*
+let temp = 15;
+let sunny = true;
+
+if(!(temp > 10)){
+    console.log("Weather is Bad !")
+}
+else{
+    console.log("Weather is bad !")
+}
+*/
+
 // 16 ****************************************************************************************
-// 15 ****************************************************************************************
+// Switch statements
+/*
+let grade = "A+";
+
+switch(grade){
+
+    case "AA":
+        console.log("Excelent !!");
+        break;
+    case "A+":
+        console.log("Very goood !");
+        break;
+    case "A":
+        console.log("Good");
+        break;
+    default :
+        console.log("Not Defined ..")
+}
+*/
+/*
+let grade = 89;
+
+switch(true){
+    case grade >= 90:
+        console.log("Excellent !!");
+        break;
+    case grade >= 80:
+        console.log("Very Good !");
+        break;
+    case grade >=70:
+        console.log("Good .");
+        break;
+    default:
+        console.log("Undefined ..")
+
+}
+*/
+
+// 15 ***************************************************************************************
+//Simple programme with HTML for checkbox and radiobuton using cheked properties
+/*
+document.getElementById("submit").onclick = function(){
+
+    const ChkBox = document.getElementById("myChkBox");
+    const visaBtn = document.getElementById("visaBtn");
+    const masterBtn = document.getElementById("mastercardBtn");
+    const rupayBtn = document.getElementById("rupayBtn");
+
+
+    if( ChkBox.checked){
+            console.log("You are Subscribed")
+    }
+    else{
+            console.log("you are NOT Sunscribed")
+    }
+
+    if( visaBtn.checked){
+        console.log("You are paying with Visa card")
+    }
+    else if(masterBtn.checked){
+        console.log("You are paying with Master casrd")
+    }
+    else if(rupayBtn.checked){
+        console.log("You are paying with makein india Rupay card")
+    }
+    else{console.log("you have not selected any payment options")}
+    
+}
+*/
 // 14 ****************************************************************************************
-//test push
+//if statement 
+/*
+let age = 21;
+
+if (age <= 0 ){
+    console.log("invalid age")
+}
+else if(age >= 60){
+    console.log("you are a Senior citizen")
+}
+else if( age >= 18){
+    console.log("You are an adult")
+}
+else{
+    console.log("You are a child ")
+}
+*/
+// Boolean
+/*
+let online = true;
+
+if(online){
+    console.log("you are online")
+}
+else{console.log("you are ofline")}
+*/
 
 // 13 ****************************************************************************************
 //  method chaining = calling one method after another in one continous line
